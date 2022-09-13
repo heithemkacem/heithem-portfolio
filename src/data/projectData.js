@@ -1,0 +1,101 @@
+export const projects = [
+  {
+    id: 1,
+    title: "near-vote",
+    description: "Built a web3 application using",
+    tech: [
+      "ReactJS",
+      "Material-UI",
+      "Node.js",
+      "MongoDB",
+      "Redux",
+      "React Router",
+      "Express",
+      "Bcrypt",
+      "Mongoose",
+      "Near Protocol",
+      "Git",
+      "JWT",
+    ],
+    img: [
+      "./projects/near-vote/near-vote-1.png",
+      "./projects/near-vote/near-vote-2.png",
+      "./projects/near-vote/near-vote-3.png",
+      "./projects/near-vote/near-vote-4.png",
+      "./projects/near-vote/near-vote-5.png",
+      "./projects/near-vote/near-vote-6.png",
+      "./projects/near-vote/near-vote-7.png",
+      "./projects/near-vote/near-vote-8.png",
+      "./projects/near-vote/near-vote-9.png",
+      "./projects/near-vote/near-vote-10.png",
+      "./projects/near-vote/near-vote-11.png",
+      "./projects/near-vote/near-vote-12.png",
+      "./projects/near-vote/near-vote-13.png",
+      "./projects/near-vote/near-vote-14.png",
+      "./projects/near-vote/near-vote-15.png",
+      "./projects/near-vote/near-vote-16.png",
+      "./projects/near-vote/near-vote-17.png",
+      "./projects/near-vote/near-vote-18.png",
+      "./projects/near-vote/near-vote-19.png",
+      "./projects/near-vote/near-vote-20.png",
+    ],
+    links: {
+      url: "https://github.com/heithemkacem/nearvote-v2",
+      github: "https://github.com/heithemkacem/nearvote-v2",
+    },
+  },
+  {
+    id: 2,
+    title: "movie-trailer",
+    description:
+      "Built a web application to show all the latest movies with their trailers",
+
+    tech: ["ReactJS", "TMDB-API", "GIT"],
+    img: [
+      "./projects/movie-trailer/movie-trailer-1.png",
+      "./projects/movie-trailer/movie-trailer-2.png",
+      "./projects/movie-trailer/movie-trailer-3.png",
+      "./projects/movie-trailer/movie-trailer-4.png",
+      "./projects/movie-trailer/movie-trailer-5.png",
+    ],
+    links: {
+      url: "https://heithemkacem.github.io/movie-trailer/",
+      github: "https://github.com/heithemkacem/movie-trailer",
+    },
+  },
+  {
+    id: 3,
+    title: "ih-polymer-engineering",
+    description:
+      "Showcase website for a polymer engineering company based in Tunisia",
+    tech: ["Html", "Sass", "JavaScript", "Bootstrap", "Git"],
+    img: [
+      "./projects/ih-polymer-engineering/ih-polymer-engineering-1.png",
+      "./projects/ih-polymer-engineering/ih-polymer-engineering-2.png",
+      "./projects/ih-polymer-engineering/ih-polymer-engineering-3.png",
+      "./projects/ih-polymer-engineering/ih-polymer-engineering-4.png",
+      "./projects/ih-polymer-engineering/ih-polymer-engineering-5.png",
+    ],
+    links: {
+      url: "https://ihpolymerengineering.com",
+      github: "https://github.com/roei111/Url-Shortener",
+    },
+  },
+  {
+    id: 4,
+    title: "omni-food",
+    description: "Showcase website for a food delivery company based in London",
+    tech: ["Html", "Sass", "JavaScript", "Bootstrap", "Git"],
+    img: [
+      "./projects/omni-food/omni-food-1.png",
+      "./projects/omni-food/omni-food-2.png",
+      "./projects/omni-food/omni-food-3.png",
+      "./projects/omni-food/omni-food-4.png",
+    ],
+
+    links: {
+      url: "https://heithemkacem.github.io/omnifood-frontend/",
+      github: "https://github.com/heithemkacem/omnifood-frontend",
+    },
+  },
+];
