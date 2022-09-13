@@ -73,7 +73,7 @@ const Navbar = (props) => {
           color="text.primary"
           onClick={backToTop}
         >
-          Kacem
+          <img src="./icon.png" alt="logo" height="100px" width="170px" />
         </Typography>
         <DarkModeSwitch {...props} />
         {navLinks.map((item, index) => (
