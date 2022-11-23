@@ -13,6 +13,7 @@ const ImageCarousel = (props) => {
           key={image}
           src={image}
           alt="project"
+          height={500}
         />
       ))}
     </Carousel>
