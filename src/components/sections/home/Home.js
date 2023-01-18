@@ -1,4 +1,4 @@
-import ThreeJSModel from "../../ThreeJS/ThreeJSModel";
+/* import ThreeJSModel from "../../ThreeJS/ThreeJSModel"; */
 import { Container, Typography, Button } from "@mui/material";
 import { motion } from "framer-motion";
 import Icons from "../../icons/Icons";
@@ -48,7 +48,7 @@ const Home = (props) => {
   const classes = useStyles();
   return (
     <section className={classes.home} id="home">
-      <ThreeJSModel />
+      {/* <ThreeJSModel /> */}
       <Container className={classes.container}>
         <Typography
           component={motion.div}
