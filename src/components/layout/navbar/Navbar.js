@@ -96,7 +96,7 @@ const Navbar = (props) => {
         ))}
         <a
           className={`${classes.navlink} ${classes.hideLinks} ${classes.resume}`}
-          href="./HeithemKacem.pdf"
+          href="./Heithem-Kacem.pdf"
           target="_blank"
           rel="noopener noreferrer"
           download={true}

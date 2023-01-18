@@ -12,16 +12,40 @@ export const useStyles = makeStyles((theme) => ({
       margin: "0 20rem",
     },
   },
+  aboutImage: {
+    width: "100%",
+    marginTop: "1rem",
+    [theme.breakpoints.only("md")]: {
+      display: "none",
+    },
+    [theme.breakpoints.only("sm")]: {
+      display: "none",
+    },
+    [theme.breakpoints.only("xs")]: {
+      display: "none",
+    },
+  },
   container: {
+    [theme.breakpoints.only("md")]: {
+      paddingTop: "10rem",
+    },
+    [theme.breakpoints.only("sm")]: {
+      paddingTop: "10rem",
+    },
+    [theme.breakpoints.only("xs")]: {
+      paddingTop: "10rem",
+    },
     display: "flex !important",
     flexDirection: "column",
     height: "55%",
     zIndex: 1,
+    paddingTop: "60px",
   },
   text: {
     width: "500px",
     padding: "1rem",
     paddingRight: "0",
+
     alignSelf: "flex-start",
     fontSize: "1.5rem !important",
     fontWeight: "700 !important",
@@ -30,6 +54,7 @@ export const useStyles = makeStyles((theme) => ({
     width: "500px",
     padding: "1rem",
     paddingRight: "0",
+
     alignSelf: "flex-start",
     fontSize: "3rem !important",
     fontWeight: "700 !important",
