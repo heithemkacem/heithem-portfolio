@@ -3,7 +3,7 @@ import { makeStyles } from "@mui/styles";
 export const useStyles = makeStyles((theme) => ({
   icons: {
     display: "flex",
-    width: "55%",
+    width: "34%",
     justifyContent: "space-between",
     alignSelf: "flex-start",
     paddingInline: "1rem",

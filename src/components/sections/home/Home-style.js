@@ -6,25 +6,13 @@ export const useStyles = makeStyles((theme) => ({
     [theme.breakpoints.up("lg")]: {
       height: "100vh",
       display: "flex",
-      flexDirection: "row-reverse",
+      width: "100%",
+      flexDirection: "row",
       justifyContent: "center",
-      alignItems: "end",
-      margin: "0 20rem",
+      alignItems: "center",
     },
   },
-  aboutImage: {
-    width: "100%",
-    marginTop: "1rem",
-    [theme.breakpoints.only("md")]: {
-      display: "none",
-    },
-    [theme.breakpoints.only("sm")]: {
-      display: "none",
-    },
-    [theme.breakpoints.only("xs")]: {
-      display: "none",
-    },
-  },
+
   container: {
     [theme.breakpoints.only("md")]: {
       paddingTop: "10rem",
@@ -45,7 +33,6 @@ export const useStyles = makeStyles((theme) => ({
     width: "500px",
     padding: "1rem",
     paddingRight: "0",
-
     alignSelf: "flex-start",
     fontSize: "1.5rem !important",
     fontWeight: "700 !important",

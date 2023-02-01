@@ -8,7 +8,6 @@ import About from "./components/sections/about/About";
 import Footer from "./components/sections/footer/Footer";
 import Experience from "./components/sections/experience/Experience";
 import ProjectSection from "./components/sections/projects/ProjectSection";
-
 //Get initial theme, if the initialTheme value is false then the theme is light
 let initialTheme = false;
 //If the the value from the local storage equals to dark
@@ -46,6 +45,7 @@ function App() {
         <About />
         <Experience />
         <ProjectSection />
+
         <Footer />
         <ScrollTop showBelow={250} />
       </ThemeProvider>

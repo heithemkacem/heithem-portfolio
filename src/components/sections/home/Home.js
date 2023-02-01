@@ -49,11 +49,7 @@ const Home = (props) => {
   return (
     <section className={classes.home} id="home">
       {/* <ThreeJSModel /> */}
-      <img
-        src={"./projects/Designient-Home-page-Banner.png"}
-        alt="Banner"
-        className={classes.aboutImage}
-      />
+
       <Container className={classes.container}>
         <Typography
           component={motion.div}
